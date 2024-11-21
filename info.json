@@ -1,89 +1,35 @@
 {
     "intents": [
-        {
-            "tag": "greeting",
-            "patterns": ["Hey", "Hello", "Hi", "Good Morning", "Good day"],
-            "responses": ["How can I help you?", "What could I do for you?", "Hello, I'm here to assist you"]
-        },
-        {
-            "tag": "Bye",
-            "patterns": ["Bye", "Goodbye"],
-            "responses": ["See you next time!"]
-        },
-        {
-            "tag": "creator",
-            "patterns": ["Who created you?"],
-            "responses": ["I was created by Jose Wald, a developer who loves using technology to solve complex problems, finding joy in every challenge."]
-        },
-        {
-            "tag": "specificity",
-            "patterns": ["What is his favourite programming language and technology?"],
-            "responses": ["He's a big fan of Data Structures and Algorithms (DSA). For him, the programming language and technology are just tools—he's able to learn and adapt to anything quickly."]
-        },
-        {
-            "tag": "phone number",
-            "patterns": ["Give me your creator's phone number", "What's Jose's phone number?"],
-            "responses": ["For privacy reasons, I can't share that information."]
-        },
-        {
-            "tag": "Jose",
-            "patterns": ["What year is he in at university?", "What year is Jose in at university?"],
-            "responses": ["I prefer not to share that, as his programming skills go beyond academic level. You can check out his Codingame profile: 'Jose Wald'."]
-        },
-        {
-            "tag": "skills",
-            "patterns": ["What are Jose's skills?", "Tell me about his skills"],
-            "responses": [
-                "Jose is proficient in various programming languages including PHP, TypeScript, and is experienced in using frameworks like Laravel and Unity for game development.",
-                "He has a solid foundation in problem-solving, with certification in Problem Solving from HackerRank, and actively participates in algorithm competitions and hackathons."
-            ]
-        },
-        {
-            "tag": "hobbies",
-            "patterns": ["What are Jose's hobbies?", "What does he enjoy doing?"],
-            "responses": [
-                "Jose enjoys coding and participating in hackathons. He's also passionate about developing games, and is currently involved in creating educational games for competitions like Game Jam Plus.",
-                "Beyond programming, he has a background in abs training and maintains an active lifestyle through exercises, including core training."
-            ]
-        },
-        {
-            "tag": "work",
-            "patterns": ["Does Jose have work experience?", "Tell me about his work experience"],
-            "responses": [
-                "Jose has hands-on experience in web development with a focus on PHP and Laravel. He's worked on projects such as 'LaraJo', a social media app similar to Instagram.",
-                "In addition, he's completed several part-time roles to support his studies and is known for his strong work ethic and ability to balance multiple projects effectively."
-            ]
-        },
-        {
-            "tag": "education",
-            "patterns": ["What is Jose's educational background?", "Where did he study?"],
-            "responses": [
-                "Jose is a self-taught developer and has pursued formal studies at ESTI and ELI, where he was among the top students, earning a 'mention Bien'.",
-                "While he values formal education, he's focused on acquiring certifications in areas that directly enhance his practical programming skills."
-            ]
-        },
-        {
-            "tag": "languages",
-            "patterns": ["What languages does Jose speak?", "Is Jose multilingual?"],
-            "responses": [
-                "Yes, Jose is fluent in Malagasy, French, and English. He's also learning German and is always keen to expand his linguistic abilities to connect with diverse communities."
-            ]
-        },
-        {
-            "tag": "LinkedIn",
-            "patterns": ["What is your LinkedIn?", "Give me your LinkedIn profile", "Jose's LinkedIn"],
-            "responses": ["You can find his LinkedIn profile here: https://www.linkedin.com/in/josewald"]
-        },
-        {
-            "tag": "Codingame",
-            "patterns": ["What is your Codingame?", "Give me your Codingame profile", "Jose's Codingame"],
-            "responses": ["You can find his Codingame profile here: https://www.codingame.com/profile/josewald"]
-        },
-        {
-            "tag": "GitHub",
-            "patterns": ["What is your GitHub?", "Give me your GitHub profile", "Jose's GitHub"],
-            "responses": ["You can find his GitHub profile here: https://github.com/josewald"]
-        }
-        
+      {
+        "tag": "greeting",
+        "patterns": ["Hey", "Hello", "Hi", "Good Morning", "Good day"],
+        "responses": ["How can I help you?", "What could I do for you?", "Hello, I'm here to assist you"],
+        "context": [""]
+      },
+      {
+        "tag": "Bye",
+        "patterns": ["Bye", "Goodbye"],
+        "responses": ["See you next time!"],
+        "context": [""]
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?"],
+        "responses": ["I was created by Jose Wald, a developer who loves using technology to solve complex problems, finding joy in every challenge."],
+        "context": [""]
+      },
+      {
+        "tag": "specificity",
+        "patterns": ["What is his favourite programming language and technology?"],
+        "responses": ["He's a big fan of Data Structures and Algorithms (DSA). For him, the programming language and technology are just tools—he's able to learn and adapt to anything quickly."],
+        "context": [""]
+      },
+      {
+        "tag": "phone number",
+        "patterns": ["Give me your creator's phone number", "What's Jose's phone number?"],
+        "responses": ["For privacy reasons, I can't share that information."],
+        "context": [""]
+      }
     ]
-}
+  }
+  

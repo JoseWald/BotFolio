@@ -9,7 +9,7 @@ from nltk import WordNetLemmatizer
 
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open("intents.json").read())
+intents = json.loads(open("info.json").read())
 
 words = []
 classes = []
